@@ -48,3 +48,7 @@ Five substantiated audit briefings — every number traces to the benchmark shee
 ## Research paper draft
 
 Full paper draft: [audit-paper.md](paper/audit-paper.md) — rendered rendered-audit methodology + findings (n=21). DOI pending Zenodo upload.
+
+## Citation
+
+Derek Jamieson (Website Rescue). *Mobile-First Defects in Local Home-Services Websites: A Rendered Audit of 21 Sites (October 2026).* Zenodo. DOI: 10.5281/zenodo.23710476
