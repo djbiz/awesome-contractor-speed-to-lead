@@ -2,7 +2,7 @@
 <title>Missed-Call Text-Back for Local Trades | Website Rescue</title>
 <meta name="description" content="What missed-call text-back is, what it must include, and where it fits: after the call path works. Compliance-first implementation notes.">
 <link rel="stylesheet" href="../assets/deck.css"></head><body>
-<div class="pageno">3 / 5</div>
+<div class="pageno">3 / 6</div>
 <section><p class="kicker">Website Rescue · Audit Briefing 3 of 5</p>
 <h1>Missed-call text-back: what it is, and what it must include</h1>
 <p class="big">A missed call is a customer who tried to reach you and got nothing.</p>
@@ -21,8 +21,19 @@
 <section><h2>Where it fits</h2>
 <p>Text-back comes <strong>after</strong> the call path works. It cannot rescue a site where the phone button does not dial, or a number that renders as untyped plain text.</p>
 <p>Order of operations: loads → dials → form sends → then automate the follow-up.</p></section>
+<section><h2>Method — how these numbers were produced</h2>
+<ul>
+<li><strong>Rendered audit:</strong> every site loaded at a phone-sized viewport (390x844, Chromium), full-page capture, no cache</li>
+<li><strong>Source checks:</strong> form-element counts, <code>tel:</code> href inventory, viewport meta — cross-checked with an independent server-side fetch</li>
+<li><strong>Dating:</strong> every finding recorded with its inspection date; re-verified before publication</li>
+<li><strong>Scoring:</strong> published 25-point rubric (business basics /10, visibility and mobile gaps /10, fit and feasibility /5)</li>
+<li><strong>Anonymization:</strong> businesses appear as P01-P21; findings shared with each business privately first</li>
+<li><strong>Limitations:</strong> n=21, two regions; the study measures defect presence — it did not measure conversion rates or revenue impact</li>
+</ul>
+<p><strong>Findings vs recommendations:</strong> the counts in this deck are measured findings from the published audit. The fixes we recommend are our operating judgment, not study results.</p>
+<p class="src">Published study: <strong>DOI 10.5281/zenodo.23710476</strong> — <a href="https://zenodo.org/records/23710476">zenodo.org/records/23710476</a> · Dataset: <a href="https://docs.google.com/spreadsheets/d/1BOAvWcA65d-HiTNXOQZ1L7TjskYiHzFSrUvt2vwO5zI/htmlview">benchmark sheet (n=21)</a></p></section>
 <section><div class="offer"><h2>The $297 Website Diagnostic</h2>
 <p>Covers call path, capture, and follow-up readiness in one dated audit. The <strong>$297 applies as credit toward the $750 Sprint</strong>.</p>
 <p>Start at <a href="https://websiterescue.cc">websiterescue.cc</a></p></div></section>
-<footer>Website Rescue · 311 E State St, Olean, NY 14760 · <a href="https://websiterescue.cc">websiterescue.cc</a></footer>
+<footer>Website Rescue · 311 E State St, Olean, NY 14760 · DOI 10.5281/zenodo.23710476 · <a href="https://websiterescue.cc">websiterescue.cc</a></footer>
 </body></html>
