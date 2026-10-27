@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>What Breaks on Contractor Websites — Rendered Audit 2026 | Website Rescue</title>
+<meta name="description" content="First rendered-audit results from 21 local home-services websites: unreachable sites, broken TLS, contact-capture defects. Published dataset included.">
+<link rel="stylesheet" href="/assets/deck.css"></head><body>
+<div class="pageno">1 / 5</div>
+<section><p class="kicker">Website Rescue · Audit Briefing 1 of 5</p>
+<h1>What Breaks on Contractor Websites</h1>
+<p class="big">First rendered-audit results — October 2026, 21 local home-services sites, anonymized.</p>
+<p>We loaded each site the way a customer does: a phone-sized screen, fresh browser, no cache. Every finding is dated and published.</p>
+<p class="src">Dataset: <a href="https://docs.google.com/spreadsheets/d/1BOAvWcA65d-HiTNXOQZ1L7TjskYiHzFSrUvt2vwO5zI/htmlview">Local Home-Services Website Defect Benchmark (n=21)</a></p></section>
+<section><h2>What we found</h2>
+<ul>
+<li><span class="num">4 of 21</span> sites unreachable at their main web address</li>
+<li><span class="num">5 of 21</span> serving invalid or mismatched TLS certificates</li>
+<li><span class="num">8+ of 21</span> with contact-capture defects — promised forms that do not exist, no tappable phone number</li>
+<li><span class="num">3</span> sites where conversion CTAs resolved to error pages</li>
+<li><span class="num">2</span> sites still serving template demo copy</li>
+<li><span class="num">4</span> sites with staleness signals (copyright 2011–2022)</li>
+</ul>
+<p class="src">Rendered audit, October 2026. All counts in the published benchmark sheet.</p></section>
+<section><h2>Anatomy of a working mobile site</h2>
+<ul><li>A sticky tap-to-call header with a real <code>tel:</code> link — verified on iOS and Android viewports.</li>
+<li>A form that actually sends — verified by submitting your own test entry, not by trusting the builder preview.</li>
+<li>A valid certificate, checked from the customer's browser.</li></ul>
+<p>Three mechanical checks. We publish the snippets: <a href="https://djbiz.github.io/awesome-contractor-speed-to-lead/">open-source toolkit</a>.</p></section>
+<section><h2>How sites decay silently</h2>
+<p>Migrations leave placeholder text live. Certificates expire on weekends. Plugin updates delete forms. None of it triggers an error the owner ever sees — the failures happen in other people's browsers.</p>
+<p>Nobody reports a broken website. They just leave.</p></section>
+<section><div class="offer"><h2>The $297 Website Diagnostic</h2>
+<p>A rendered audit of your site with every finding dated, plus a fix map. The full <strong>$297 applies as credit toward the $750 Website Rescue Sprint</strong>.</p>
+<p>Reserve yours at <a href="https://websiterescue.cc">websiterescue.cc</a></p></div></section>
+<footer>Website Rescue · 311 E State St, Olean, NY 14760 · <a href="https://websiterescue.cc">websiterescue.cc</a></footer>
+</body></html>
