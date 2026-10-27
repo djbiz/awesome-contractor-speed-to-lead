@@ -47,9 +47,9 @@ Five substantiated audit briefings — every number traces to the benchmark shee
 
 ## Research paper draft
 
-Full paper draft: [audit-paper.md](paper/audit-paper.md) — rendered rendered-audit methodology + findings (n=21). DOI pending Zenodo upload.
+Full paper draft: [audit-paper.md](paper/audit-paper.md) — methodology + findings (n=21). Published: DOI 10.5281/zenodo.23710476.
 
 ## Citation
 
-Derek Jamieson (Website Rescue). *Mobile-First Defects in Local Home-Services Websites: A Rendered Audit of 21 Sites (October 2026).* Zenodo. DOI: 10.5281/zenodo.23710476
-* [Five website problems that cost contractors work](articles/five-website-problems.html) — research brief citing the published study
+Derek Jamieson (Website Rescue). *Mobile-First Defects in Local Home-Services Websites: A Rendered Audit of 21 Sites (October 2026).* Zenodo. DOI: [10.5281/zenodo.23710476](https://zenodo.org/records/23710476)
+6. [Five website problems that cost contractors work](articles/five-website-problems.html) — research brief citing the published study
