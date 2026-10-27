@@ -1,4 +1,8 @@
-# FULL DRAFT — ready for Zenodo upload upon Derek go (upload requires Zenodo account credentials/manual step)
+# Mobile-First Defects in Local Home-Services Websites: A Rendered Audit of 21 Sites (October 2026)
+
+**DOI: 10.5281/zenodo.23710476** — https://zenodo.org/records/23710476 (published v1.0.2, Zenodo)
+
+Author: Derek Jamieson (Website Rescue)
 
 ## Title
 Mobile-First Defects in Local Home-Services Websites: A Rendered Audit of 21 Small-Business Sites (October 2026)
@@ -50,4 +54,4 @@ Anonymized dataset: companion Google Sheet "Local Home-Services Website Defect B
 Minimal; methodological references to be added at upload (rendered-testing practice, TLS guidance, A2P 10DLC compliance overview).
 
 ---
-ACCURACY NOTES: n=21 (20 canonical + Denver roofing audit). The earlier skeleton said n=24 — corrected; only audited sites count. No latency data anywhere in the paper. All counts trace to the cycle-1 log. Upload gate: Derek provides/authorizes Zenodo route.
+CITATION: DOI 10.5281/zenodo.23710476. Published as repo release v1.0.2 via Zenodo-GitHub integration.
