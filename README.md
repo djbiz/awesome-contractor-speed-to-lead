@@ -34,3 +34,17 @@ Every finding above came from dated, rendered mobile inspections (390x844 Chrome
 ## About
 
 Website Rescue fixes contractor websites in a 10-business-day sprint. Start with a $297 Website Diagnostic (credited 100% toward the fix). websiterescue.cc · 311 E State St, Olean, NY 14760
+
+## Presentation decks (HTML, self-hosted on Pages)
+
+Five substantiated audit briefings — every number traces to the benchmark sheet, no third-party or invented stats:
+
+1. [What Breaks on Contractor Websites — Rendered Audit 2026](decks/audit-briefing-1.html)
+2. [Fix Mobile Tap-to-Call & Form Friction](decks/audit-briefing-2.html)
+3. [Missed-Call Text-Back for Local Trades](decks/audit-briefing-3.html)
+4. [The 4-Point Mobile Site Audit](decks/audit-briefing-4.html)
+5. [Website Decay: Why Contractor Sites Break Silently](decks/audit-briefing-5.html)
+
+## Research paper draft
+
+Full paper draft: [audit-paper.md](paper/audit-paper.md) — rendered rendered-audit methodology + findings (n=21). DOI pending Zenodo upload.
