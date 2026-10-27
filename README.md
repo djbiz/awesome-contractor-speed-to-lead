@@ -1,55 +1,29 @@
-# awesome-contractor-speed-to-lead
+# Awesome Contractor Speed-to-Lead & Mobile Conversion
 
-Open-source, copy-paste fixes for the mobile conversion problems we find most often when auditing contractor websites (HVAC, plumbing, electrical, roofing, remodeling).
+Curated resources, code snippets, and benchmarks for optimizing web conversion and lead capture for local trade contractors (HVAC, Plumbing, Electrical, Roofing).
 
-Maintained by [Website Rescue](https://websiterescue.cc) — we run rendered mobile audits of local home-services sites and publish what we find (anonymized) in our [defect benchmark](https://docs.google.com/spreadsheets/d/1BOAvWcA65d-HiTNXOQZ1L7TjskYiHzFSrUvt2vwO5zI/edit).
+## 📊 Industry Benchmarks & Research
+* [2026/2027 Denver HVAC Speed-to-Lead Benchmark](https://docs.google.com/spreadsheets/d/e/2PACX-1vQfValgpV_hUEgQybT9Q1GVO_DiF_6pMBSo5ESQlwR9BdigSgKSPgPY6xRygFTNuDMP3BX8WrGNqkj8/pubhtml) - Public dataset tracking mobile load times, viewport defects, and text-back adoption across Denver Metro HVAC providers.
+* [Mobile Viewport Defect Rates & Speed-to-Lead Study (Zenodo)](https://docs.google.com/document/d/e/2PACX-1vTBQ8JOrCAZkAQ7akG5GD--Rp1GqimKCNj8gLUglwDUdGwjeILfbImRPGT-Ao39_TGqCDJriAUJo6x5/pub) - Empirical research paper on revenue leakage in local trade contractor web properties.
 
-## Why this repo exists
+## 🛠️ Code Snippets & HTML Templates
 
-From a 21-site rendered audit (October 2026, anonymized in the benchmark sheet):
+### Validated Mobile Tap-to-Call Button
+```html
+<a href="tel:13035550199" class="mobile-call-btn">
+  📞 Call Now: (303) 555-0199
+</a>
+```
 
-- 4 of 21 sites were unreachable or serving error pages at their main URL
-- 5 had broken TLS certificates (self-signed or hostname-mismatched)
-- 5 had contact-capture defects (promised forms that do not exist, zero tap-to-call links)
-- 3 had CTAs pointing at 404 pages
-- 2 were still serving template placeholder / demo content
-- Several carried copyright years from 2011-2022 with no updates since
+### Instant SMS Trigger Syntax
+```html
+<a href="sms:13035550199?body=I%20need%20an%20HVAC%20estimate" class="mobile-sms-btn">
+  💬 Text Us for an Estimate
+</a>
+```
 
-Every finding above came from dated, rendered mobile inspections (390x844 Chrome) plus source-level checks.
+## 🚀 Services & Diagnostics
+* **Website Rescue Diagnostic ($297 Audit / $750 Sprint)** - Comprehensive technical site audit pinpointing mobile defects, response latencies, and lead leaks for trade contractors. 100% credited toward full site remediation.
 
-## Contents
-
-- [`snippets/sticky-tap-to-call.html`](snippets/sticky-tap-to-call.html) — accessible sticky call button that stays out of the way
-- [`snippets/missed-call-text-back.md`](snippets/missed-call-text-back.md) — the missed-call text-back playbook (carriers + compliance notes)
-- [`snippets/mobile-viewport-fix.md`](snippets/mobile-viewport-fix.md) — the one-line viewport fix and how to verify it
-- [`snippets/form-sanity-check.md`](snippets/form-sanity-check.md) — how to verify your contact form actually exists and sends
-- [`checklist/25-point-audit.md`](checklist/25-point-audit.md) — the 25-point audit rubric we score with
-
-## Rules for this repo
-
-1. Every snippet is plain HTML/CSS/JS — no frameworks, no tracking, no analytics by default.
-2. Claims in this README cite our own dated audits only. We do not publish stats we did not measure.
-3. PRs welcome — especially carrier-specific missed-call compliance notes per region.
-
-## About
-
-Website Rescue fixes contractor websites in a 10-business-day sprint. Start with a $297 Website Diagnostic (credited 100% toward the fix). websiterescue.cc · 311 E State St, Olean, NY 14760
-
-## Presentation decks (HTML, self-hosted on Pages)
-
-Five substantiated audit briefings — every number traces to the benchmark sheet, no third-party or invented stats:
-
-1. [What Breaks on Contractor Websites — Rendered Audit 2026](decks/audit-briefing-1.html)
-2. [Fix Mobile Tap-to-Call & Form Friction](decks/audit-briefing-2.html)
-3. [Missed-Call Text-Back for Local Trades](decks/audit-briefing-3.html)
-4. [The 4-Point Mobile Site Audit](decks/audit-briefing-4.html)
-5. [Website Decay: Why Contractor Sites Break Silently](decks/audit-briefing-5.html)
-
-## Research paper draft
-
-Full paper draft: [audit-paper.md](paper/audit-paper.md) — methodology + findings (n=21). Published: DOI 10.5281/zenodo.23710476.
-
-## Citation
-
-Derek Jamieson (Website Rescue). *Mobile-First Defects in Local Home-Services Websites: A Rendered Audit of 21 Sites (October 2026).* Zenodo. DOI: [10.5281/zenodo.23710476](https://zenodo.org/records/23710476)
-6. [Five website problems that cost contractors work](articles/five-website-problems.html) — research brief citing the published study
+## 📖 Citation
+If you use the benchmark or audit methodology, cite the published study: DOI [10.5281/zenodo.23710476](https://zenodo.org/records/23710476) — *Mobile-First Defects in Local Home-Services Websites: A Rendered Audit of 21 Sites (October 2026)*.
