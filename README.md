@@ -3,7 +3,7 @@
 Curated resources, code snippets, and benchmarks for optimizing web conversion and lead capture for local trade contractors (HVAC, Plumbing, Electrical, Roofing).
 
 ## 📊 Industry Benchmarks & Research
-* [2026/2027 Denver HVAC Speed-to-Lead Benchmark](https://docs.google.com/spreadsheets/d/e/2PACX-1vQfValgpV_hUEgQybT9Q1GVO_DiF_6pMBSo5ESQlwR9BdigSgKSPgPY6xRygFTNuDMP3BX8WrGNqkj8/pubhtml) - Public dataset tracking mobile load times, viewport defects, and text-back adoption across Denver Metro HVAC providers.
+* [2026/2027 Denver HVAC Speed-to-Lead Benchmark](https://docs.google.com/spreadsheets/d/e/2PACX-1vQfValgpV_hUEgQybT9Q1GVO_DiF_6pMBSo5ESQlwR9BdigSgKSPgPY6xRygFTNuDMP3BX8WrGNqkj8/pubhtml) - Public dataset tracking mobile load times, viewport defects, and contact-capture defects across 21 local trade-contractor sites (Ohio + Denver metros).
 * [Mobile Viewport Defect Rates & Speed-to-Lead Study (Zenodo)](https://docs.google.com/document/d/e/2PACX-1vTBQ8JOrCAZkAQ7akG5GD--Rp1GqimKCNj8gLUglwDUdGwjeILfbImRPGT-Ao39_TGqCDJriAUJo6x5/pub) - Empirical research paper on revenue leakage in local trade contractor web properties.
 
 ## 🛠️ Code Snippets & HTML Templates
