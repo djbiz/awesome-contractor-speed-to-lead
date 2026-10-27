@@ -52,3 +52,4 @@ Full paper draft: [audit-paper.md](paper/audit-paper.md) — rendered rendered-a
 ## Citation
 
 Derek Jamieson (Website Rescue). *Mobile-First Defects in Local Home-Services Websites: A Rendered Audit of 21 Sites (October 2026).* Zenodo. DOI: 10.5281/zenodo.23710476
+* [Five website problems that cost contractors work](articles/five-website-problems.html) — research brief citing the published study
