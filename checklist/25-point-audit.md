@@ -1,3 +1,4 @@
+> Evidence base: *Mobile-First Defects in Local Home-Services Websites — A Rendered Audit of 21 Sites (October 2026)* — DOI [10.5281/zenodo.23710476](https://zenodo.org/records/23710476). Dataset: [benchmark sheet (n=21)](https://docs.google.com/spreadsheets/d/1BOAvWcA65d-HiTNXOQZ1L7TjskYiHzFSrUvt2vwO5zI/htmlview).
 # The 25-point local contractor website audit
 
 Used for our published benchmark. Score honestly; every point should cite something you observed and dated.
